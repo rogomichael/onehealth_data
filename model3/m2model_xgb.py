@@ -136,7 +136,7 @@ print(
 )
 
 #Save the model
-bst.save_model('model2xgb.model')
+bst.save_model('model3xgb.model')
 
 
 
