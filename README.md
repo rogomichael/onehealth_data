@@ -8,4 +8,4 @@ E-mail : *joacim.rockloev@iwr.uni-heidelberg.de*,
 Heidelberg University, Im Neuenheimer Feld 205, 69120 Heidelberg, Germany
 
 <br></br>
-The corresponding data has also been provided unde each model folder named eighty_twenty
+The corresponding data has also been provided under each model folder named eighty_twenty
