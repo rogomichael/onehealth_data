@@ -14,3 +14,7 @@ analysis/viruses.xlsx
 analysis/~$m2test.xlsx
 analysis/~$m2train_raw.xlsx
 analysis/~$viruses.xlsx
+model1/retune/
+model3/old_code/
+model3/reproduce_sub/
+model3/review/
