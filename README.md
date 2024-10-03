@@ -7,7 +7,7 @@ Michael Rogo Opata<sup>1,2</sup> Andrea Lavarello-Schettini<sup>1,4</sup>, Jan C
 
 2. Interdisciplinary Centre for Scientific Computing, Heidelberg University, Heidelberg, Germany
 
- 3.Department of Public Health and Clinical Medicine, Section of Sustainable Health, Umeå University, Sweden
+3. Department of Public Health and Clinical Medicine, Section of Sustainable Health, Umeå University, Sweden
 
 4. World Organisation for Animal Health (WOAH), Paris, France
 
