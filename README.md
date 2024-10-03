@@ -1,7 +1,7 @@
 This repository contains code and data for our recent paper titled:
 
 ## Predictiveness and Drivers of Highly Pathogenic Avian Influenza Outbreaks in Europe
-Michael Rogo Opata1,2 Andrea Lavarello-Schettini1,4, Jan C. Semenza1,3, Joacim Rocklöv1,2,3*
+Michael Rogo Opata^(1,2) Andrea Lavarello-Schettini1,4, Jan C. Semenza1,3, Joacim Rocklöv1,2,3*
 
 1. Heidelberg Institute of Global Health, Heidelberg University, Heidelberg, Germany
 
