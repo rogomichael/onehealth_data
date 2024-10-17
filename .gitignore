@@ -1,2 +1,3 @@
 #ignore the folder one_health_data_code
-**/one_health_data_code
+/one_health_data_code
+one_health_data_code/
