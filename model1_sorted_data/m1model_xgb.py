@@ -19,10 +19,10 @@ path=os.getcwd()
 #Load Train and Test Excel files
 print("LOADING DATA WAIT.......\n")
 
-train_df = pd.read_excel("m1train.xlsx")
-test_df = pd.read_csv("m1test.csv")
-X_train = train_df.iloc[:,6:] #Training
-y_train = train_df.iloc[:,5:6]
+train_df = pd.read_excel("m1train_sorted.xlsx")
+test_df = pd.read_csv("m1test_poultry_filled.csv")
+X_train = train_df.iloc[:,3:] #Training
+y_train = train_df.iloc[:,2:3]
 
 print("Training data\n", X_train)
 print("Training labels\n", y_train)
@@ -30,10 +30,10 @@ print("Training labels\n", y_train)
 #sys.exit()
 
 
-X_test = test_df.iloc[:,6:]
-X_test_raw = test_df.iloc[:,6:]
-y_test = test_df.iloc[:,5:6]
-y_test_raw = test_df.iloc[:,5:6]
+X_test = test_df.iloc[:,3:]
+X_test_raw = test_df.iloc[:,3:]
+y_test = test_df.iloc[:,2:3]
+y_test_raw = test_df.iloc[:,2:3]
 #print("Testing data\n", X_test)
 #print("Testing labels\n", y_test)
 #print("Raw Testing Testing data\n", y_test)
@@ -41,8 +41,8 @@ y_test_raw = test_df.iloc[:,5:6]
 #sys.exit()
 #Validation_set
 valid= train_df[train_df['Year'] == 2021]
-dvalid_data = valid.iloc[:,6:]
-dvalid_label = valid.iloc[:,5:6]
+dvalid_data = valid.iloc[:,3:]
+dvalid_label = valid.iloc[:,2:3]
 dvalid = xgb.DMatrix(dvalid_data, label=dvalid_label, missing=-999.0) #validation set
 #print("Validation data\n", dvalid_data)
 #print("Validation label\n", dvalid_label)
