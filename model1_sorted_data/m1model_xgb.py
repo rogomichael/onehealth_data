@@ -19,7 +19,7 @@ path=os.getcwd()
 #Load Train and Test Excel files
 print("LOADING DATA WAIT.......\n")
 
-train_df = pd.read_excel("m1train_sorted.xlsx")
+train_df = pd.read_excel("m1train_poultry_filled.xlsx")
 test_df = pd.read_csv("m1test_poultry_filled.csv")
 X_train = train_df.iloc[:,3:] #Training
 y_train = train_df.iloc[:,2:3]
