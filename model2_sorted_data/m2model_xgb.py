@@ -18,8 +18,8 @@ print("LOADING DATA, WAIT.......\n\n\n")
 #Load Train and Test Excel files
 train_df = pd.read_excel("m2train_poultry_file.xlsx") #m1train_poultry_file.xlsx")
 test_df = pd.read_csv("m2test_poultry_filled.csv")
-X_train = train_df.iloc[:,6:] #Training
-y_train = train_df.iloc[:,5:6]
+X_train = train_df.iloc[:,3:] #Training
+y_train = train_df.iloc[:,2:3]
 print("Training data\n\n\n\n", X_train)
 print("Training labels\n\n\n\n", y_train)
 
