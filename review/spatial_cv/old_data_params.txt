@@ -1,0 +1,18 @@
+{
+"verbosity": 0,
+"booster": "gbtree",
+"objective": "binary:logistic",
+"max_delta_step": 1,
+"tree_method": "gpu_hist",
+"eval_metrics": "logloss"
+"learning_rate": 0.098, 
+"num_boost_round": 281.7702180112571, 
+"max-depth": 2, 
+"gamma": 3.8914577758283693e-05, 
+"subsample": 0.7341873457611429, 
+"reg_alpha": 0.22771113527284387, 
+"reg_lambda": 1.6884029915870075e-07, 
+"colsample_bytree": 0.850855026540212, 
+"min_child_weight": 3, 
+"n_estimators": 473
+}
